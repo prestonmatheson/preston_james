@@ -2,29 +2,20 @@
 
 <h1>Blogs</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Subject</th>
-      <th>Body</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
+  <div class="container row">
     <% @blogs.each do |blog| %>
-      <tr>
-        <td><%= blog.title %></td>
-        <td><%= blog.subject %></td>
-        <td><%= blog.body %></td>
-        <td><%= link_to 'Show', blog %></td>
-        <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
-        <td><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+    <a href="<%= blog_url(blog) %>">
+      <div class="card col-md-4 custom_card">
+        <h4><%= blog.title %></h4>
+        <div>
+          <%= link_to 'Edit', edit_blog_path(blog), class: "" %>
+          <%= link_to 'Delete', blog, method: :delete, data: { confirm: 'Are you sure?' }, class: "" %>
+        </div>
+      </div>
+    </a>
     <% end %>
-  </tbody>
-</table>
+  </div>
 
 <br>
 

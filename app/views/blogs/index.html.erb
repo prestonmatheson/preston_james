@@ -1,12 +1,33 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Blogs</h1>
-
-
-  <div class="container row">
+<div class="card">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <% i = 0 %>
+      <% @blogs.each do |blog| %>
+        <div class="carousel-item <%= 'active' if i == 0 %>"><%= blog.title %></div>
+        <% i += 1 %>
+      <% end %>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+  <div class="container">
     <% @blogs.each do |blog| %>
     <a href="<%= blog_url(blog) %>">
-      <div class="card col-md-4 custom_card">
+      <div class="card col-md-12 custom_card">
         <h4><%= blog.title %></h4>
         <div>
           <%= link_to 'Edit', edit_blog_path(blog), class: "" %>

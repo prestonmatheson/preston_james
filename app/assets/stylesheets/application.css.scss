@@ -20,11 +20,27 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+
+#notice_wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  .notice, .alert {
+    position: relative;
+    text-align: center;
+    padding: 1.75rem 0;
+    color: #ffffffcf;
+    background-color: #00255e7a;
+  }
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 
 html {
   font-family: sans-serif;
@@ -146,7 +162,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #666;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;

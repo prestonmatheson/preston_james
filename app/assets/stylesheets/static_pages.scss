@@ -1,0 +1,92 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.static_nav {
+  position: absolute;
+  width: 100%;
+}
+.static_pages_header {
+  display: none;
+}
+.static_dropdown.responsive .static_pages_header {
+  animation: 200ms ease-out 0s 1 slideInFromTop;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+a.static_pages_header_item {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+a.static_pages_header_item:hover {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.075);
+  padding: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+.fa, .fas {
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-size: xx-large;
+  color: rgba(255, 255, 255, 0.68);
+}
+.static_dropdown.responsive i.fa, i.fas {
+  animation: 1s ease-out 0s 1 rotate180;
+}
+
+#home_page:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: url("mountain-background.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+}
+
+.brand {
+  font-size: xx-large;
+}
+
+.bio {
+  text-align: center;
+  color: #fff;
+  padding-top: 35vh;
+}
+
+p.copyright {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #000000ad;
+}

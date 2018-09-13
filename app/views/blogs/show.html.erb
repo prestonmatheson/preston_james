@@ -1,19 +1,34 @@
-<p id="notice"><%= notice %></p>
+    <!-- Page Header -->
+    <header class="masthead">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+              <h1><%= @blog.title %></h1>
+              <h2 class="subheading"><%= @blog.subject%></h2>
+              <span class="meta">Posted by
+                <a href="#">Start Bootstrap</a>
+                on <%= @blog.created_at.strftime('%m/%d/%y') %></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<p>
-  <strong>Title:</strong>
-  <%= @blog.title %>
-</p>
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+           <p><%= @blog.body %></p>
+          </div>
+        </div>
+      </div>
+    </article>
 
-<p>
-  <strong>Subject:</strong>
-  <%= @blog.subject %>
-</p>
-
-<p>
-  <strong>Body:</strong>
-  <%= @blog.body %>
-</p>
-
-<%= link_to 'Edit', edit_blog_path(@blog) %> |
-<%= link_to 'Back', blogs_path %>
+<!-- add logic for verifying I'm logged in -->
+<div class="container blog_show_btns">
+  <%= link_to 'Back', blogs_path, class: "btn btn-primary blog_show_btn" %>
+  <%= link_to 'Edit', edit_blog_path(@blog), class: "btn btn-primary blog_show_btn" %> 
+</div>

@@ -1,32 +1,6 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-// #home_page {
-//   background-image: image-url("mountain-background.jpg");
-//   height: 100%; 
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
-// #home_page {  position: relative; }
-@mixin for-phone-only {
-  @media (max-width: 599px) { @content; }
-}
-@mixin for-tablet-portrait-up {
-  @media (min-width: 600px) { @content; }
-}
-@mixin for-tablet-landscape-up {
-  @media (min-width: 900px) { @content; }
-}
-@mixin for-desktop-up {
-  @media (min-width: 1200px) { @content; }
-}
-@mixin for-big-desktop-up {
-  @media (min-width: 1800px) { @content; }
-}
-@mixin for-tablet-portrait-only {
-  @media (min-width: 600px) and ( max-width: 900px ) { @content; }
-}
 
 @keyframes slideInFromTop {
   0% {
@@ -90,7 +64,7 @@ a.static_pages_header_item:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .content {
@@ -107,4 +81,12 @@ a.static_pages_header_item:hover {
   text-align: center;
   color: #fff;
   padding-top: 35vh;
+}
+
+p.copyright {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #000000ad;
 }

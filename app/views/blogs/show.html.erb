@@ -27,5 +27,8 @@
       </div>
     </article>
 
-<%= link_to 'Edit', edit_blog_path(@blog) %> |
-<%= link_to 'Back', blogs_path %>
+<!-- add logic for verifying I'm logged in -->
+<div class="container blog_show_btns">
+  <%= link_to 'Back', blogs_path, class: "btn btn-primary blog_show_btn" %>
+  <%= link_to 'Edit', edit_blog_path(@blog), class: "btn btn-primary blog_show_btn" %> 
+</div>

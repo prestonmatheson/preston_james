@@ -274,6 +274,10 @@ header.masthead .site-heading .subheading {
   }
 }
 
+header.masthead .post-heading {
+  text-align: center;
+}
+
 header.masthead .post-heading h1 {
   font-size: 35px;
 }
@@ -441,15 +445,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color:  #00ddc5 !important;
+  border-color: #42f9e08c !important;
   color: #fff !important
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #009d8d !important;
 }
 
 .btn-lg {
@@ -466,4 +469,11 @@ footer .copyright {
 .blog_show_btn {
   float: right;
   margin: 5px;
+}
+.show_page_body {
+  max-width: 66.667%;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #212529;
+  font-family: Lora,'Times New Roman',serif;
 }

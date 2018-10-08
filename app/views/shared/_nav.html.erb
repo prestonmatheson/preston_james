@@ -15,6 +15,14 @@
         <li class="nav-item">
           <%= link_to "Portfolio", portfolios_path, class: "nav-link" %>
         </li>
+        <li class="nav-item">
+          <a href="/portfolios/#contact" class="nav-link" >Contact</a>
+        </li>
+        <% if current_user %>
+          <li class="nav-item">
+            <%= link_to "Logout", destroy_user_session_path, method: :delete, class: "nav-link"%>
+          </li>
+        <% end %>
       </ul>
     </div>
   </div>

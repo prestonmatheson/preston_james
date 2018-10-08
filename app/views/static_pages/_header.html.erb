@@ -3,6 +3,9 @@
     <%= link_to "Blog", blogs_path, class: 'static_pages_header_item' %>
     <%= link_to "Portfolio", portfolios_path, class: 'static_pages_header_item' %>
     <a href="/portfolios/#contact" class="static_pages_header_item" >Contact</a>
+    <% if current_user %>
+      <%= link_to "Logout", destroy_user_session_path, method: :delete, class: "static_pages_header_item"%>
+    <% end %>
   </div>
   <i class="fas fa-chevron-down"></i>
 </div>

@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: preston_james_production
-  username: preston_james
+  database: d3hhq1ftgoa3kf
+  username: gbuzdscksupzeu
   password: <%= ENV['PRESTON_JAMES_DATABASE_PASSWORD'] %>

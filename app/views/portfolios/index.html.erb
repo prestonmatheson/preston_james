@@ -13,9 +13,9 @@
 </header>
 
 <section class="bg-light" id="portfolio">
-  <% if current_user %>
-    <%= link_to 'New Portfolio Item ', new_portfolio_path, class: "btn btn-primary new_post_btns" %>
-  <% end %>
+  
+  <%= link_to 'New Portfolio Item ', new_portfolio_path, class: "btn btn-primary new_post_btns" if current_user %>
+
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">

@@ -19,5 +19,5 @@
 </div>
 <div class="container blog_show_btns">
   <%= link_to 'Back', portfolios_path, class: "btn btn-primary blog_show_btn" %>
-  <%= link_to 'Edit', edit_portfolio_path(@portfolio), class: "btn btn-primary blog_show_btn" %>
+  <%= link_to 'Edit', edit_portfolio_path(@portfolio), class: "btn btn-primary blog_show_btn" if current_user %>
 </div>

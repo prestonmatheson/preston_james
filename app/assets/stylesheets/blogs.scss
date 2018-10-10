@@ -473,9 +473,10 @@ footer .copyright {
 }
 .show_page_body {
   margin: 0 auto;
-  // font-size: 20px;
+  font-size: 20px;
   color: #212529;
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.4px;
   @include for-tablet-portrait-up {
     max-width: 70%;
   }

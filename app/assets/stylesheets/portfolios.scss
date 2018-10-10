@@ -246,3 +246,14 @@ section#contact :-ms-input-placeholder {
   background: black;
   margin-bottom: 15px;
 }
+
+.contact_content {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.contact_content a:hover {
+  color: #dee2e6 !important;
+}

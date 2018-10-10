@@ -1,24 +1,25 @@
 // Place all the styles related to the Blogs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-// .custom_card {
-//   margin-top: 10px;
-//   cursor: pointer;
-// }
-// .blog_index_subject {
-//   color: black;
-//   margin-bottom: 10px;
-// }
-
-// .carousel {
-//   background: black;
-//   height: 33vh;
-// }
-// .carousel-item {
-//   text-align: center;
-//   color: #fff;
-//   padding: 15vh;
-// }
+// for mobile optimization these styles first
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+@mixin for-tablet-portrait-only {
+  @media (min-width: 600px) and ( max-width: 900px ) { @content; }
+}
 body {
   font-size: 20px;
   color: #212529;
@@ -471,9 +472,18 @@ footer .copyright {
   margin: 5px;
 }
 .show_page_body {
-  max-width: 66.667%;
   margin: 0 auto;
+  // font-size: 20px;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  @include for-tablet-portrait-up {
+    max-width: 70%;
+  }
+}
+
+.show_page_body p {
   font-size: 20px;
   color: #212529;
-  font-family: Lora,'Times New Roman',serif;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.4px;
 }

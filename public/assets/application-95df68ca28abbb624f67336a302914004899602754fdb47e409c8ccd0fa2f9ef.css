@@ -1,0 +1,1461 @@
+/* line 23, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+body {
+  font-size: 20px;
+  color: #212529;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+/* line 29, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+/* line 34, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+p a {
+  text-decoration: underline;
+}
+
+/* line 38, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 48, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+a {
+  color: #212529;
+  transition: all 0.2s;
+}
+
+/* line 54, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+a:focus, a:hover {
+  color: #0085A1;
+}
+
+/* line 58, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+blockquote {
+  font-style: italic;
+  color: #868e96;
+}
+
+/* line 63, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+/* line 69, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* line 80, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+::-moz-selection {
+  color: #fff;
+  background: #0085A1;
+  text-shadow: none;
+}
+
+/* line 86, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+::-moz-selection {
+  color: #fff;
+  background: #0085A1;
+  text-shadow: none;
+}
+::selection {
+  color: #fff;
+  background: #0085A1;
+  text-shadow: none;
+}
+
+/* line 92, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+/* line 97, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+/* line 102, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+/* line 107, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 114, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+/* line 119, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+/* line 127, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 992px) {
+  /* line 135, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+  }
+
+  /* line 139, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav .navbar-brand {
+    padding: 10px 20px;
+    color: #fff;
+  }
+
+  /* line 143, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  /* line 146, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav .navbar-nav > li.nav-item > a {
+    padding: 10px 20px;
+    color: #fff;
+  }
+
+  /* line 150, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* line 156, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav {
+    transition: background-color 0.2s;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+  }
+
+  /* line 164, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav.is-fixed {
+    /* when the user scrolls down, we hide the header right above the viewport */
+    position: fixed;
+    top: -67px;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+    border-bottom: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  /* line 175, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav.is-fixed .navbar-brand {
+    color: #212529;
+  }
+
+  /* line 178, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
+    color: #0085A1;
+  }
+
+  /* line 181, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav.is-fixed .navbar-nav > li.nav-item > a {
+    color: #212529;
+  }
+
+  /* line 184, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
+    color: #0085A1;
+  }
+
+  /* line 187, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  #mainNav.is-visible {
+    /* if the user changes the scrolling direction, we show the header */
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+/* line 216, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead {
+  margin-bottom: 50px;
+  background-image: url("mountain-background.jpg");
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+/* line 225, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+/* line 235, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 243, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
+/* line 250, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+/* line 255, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+/* line 261, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 272, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
+/* line 278, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .post-heading {
+  text-align: center;
+}
+
+/* line 282, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .post-heading h1 {
+  font-size: 35px;
+}
+
+/* line 286, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+/* line 292, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 299, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .post-heading .meta {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+/* line 306, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 311, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  header.masthead .post-heading h1 {
+    font-size: 55px;
+  }
+
+  /* line 314, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  header.masthead .post-heading .subheading {
+    font-size: 30px;
+  }
+}
+/* line 319, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.post-preview > a {
+  color: #212529;
+}
+
+/* line 323, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #0085A1;
+}
+
+/* line 328, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 334, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+/* line 339, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+/* line 346, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+
+/* line 351, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #0085A1;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 357, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
+}
+/* line 362, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.floating-label-form-group {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* line 370, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none !important;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+/* line 385, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.floating-label-form-group input::-webkit-input-placeholder,
+.floating-label-form-group textarea::-webkit-input-placeholder {
+  color: #868e96;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+/* line 391, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.floating-label-form-group label {
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  position: relative;
+  z-index: 0;
+  top: 2em;
+  display: block;
+  margin: 0;
+  transition: top 0.3s ease, opacity 0.3s ease;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+}
+
+/* line 406, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.floating-label-form-group .help-block {
+  margin: 15px 0;
+}
+
+/* line 410, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+
+/* line 415, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.floating-label-form-group-with-focus label {
+  color: #0085A1;
+}
+
+/* line 419, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+form .form-group:first-child .floating-label-form-group {
+  border-top: 1px solid #dee2e6;
+}
+
+/* line 423, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+footer {
+  padding: 10px 0 65px;
+}
+
+/* line 427, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+footer .list-inline {
+  padding: 10px;
+  font-size: xx-large;
+}
+
+/* line 432, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* line 438, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.btn {
+  font-size: 14px;
+  font-weight: 800;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 448, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.btn-primary {
+  background-color: #00ddc5 !important;
+  border-color: #42f9e08c !important;
+  color: #fff !important;
+}
+
+/* line 454, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #009d8d !important;
+}
+
+/* line 459, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.btn-lg {
+  font-size: 16px;
+  padding: 25px 35px;
+}
+
+/* line 463, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.copyright_containment {
+  position: relative;
+}
+
+/* line 467, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.blog_show_btns {
+  height: 60px;
+}
+
+/* line 470, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.blog_show_btn {
+  float: right;
+  margin: 5px;
+}
+
+/* line 474, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.show_page_body {
+  margin: 0 auto;
+  font-size: 20px;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.4px;
+}
+@media (min-width: 600px) {
+  /* line 474, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+  .show_page_body {
+    max-width: 70%;
+  }
+}
+
+/* line 485, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/blogs.scss */
+.show_page_body p {
+  font-size: 20px;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.4px;
+}
+/* line 4, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.img-fluid {
+  background-image: url("mountain-background.jpg");
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 9, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+/* line 14, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.new_post_btns {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+/* line 20, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio {
+  margin-top: -3.1rem;
+}
+
+/* line 23, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+/* line 28, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* line 36, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: #42f9e08c;
+}
+
+/* line 46, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+/* line 50, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+/* line 61, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+/* line 65, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+/* line 70, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* line 78, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+/* line 83, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 767px) {
+  /* line 91, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+/* line 96, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal {
+  padding-right: 0px !important;
+}
+
+/* line 100, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+
+/* line 105, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .modal-content {
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* line 110, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .modal-content h2 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+/* line 115, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+
+/* line 119, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .modal-content p.item-intro {
+  font-size: 16px;
+  font-style: italic;
+  margin: 20px 0 30px;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 126, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .modal-content ul.list-inline {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* line 131, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+
+/* line 135, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .modal-content button {
+  cursor: pointer;
+}
+
+/* line 139, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* line 149, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+/* line 153, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .close-modal .lr {
+  /* Safari and Chrome */
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #212529;
+}
+
+/* line 165, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.portfolio-modal .close-modal .lr .rl {
+  /* Safari and Chrome */
+  z-index: 1052;
+  width: 1px;
+  height: 75px;
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-color: #212529;
+}
+
+/* line 176, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact {
+  background-color: #212529;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 183, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact .section-heading {
+  color: #fff;
+}
+
+/* line 187, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+/* line 191, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+/* line 196, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+/* line 200, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
+
+/* line 204, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+
+/* line 210, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 216, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 222, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 228, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+section#contact :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 234, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#sendMessageButton {
+  background-color: #42f9e0d9 !important;
+  border-color: #42f9e08c !important;
+  margin-bottom: 25px;
+}
+
+/* line 239, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+#sendMessageButton:hover {
+  background-color: #42f9e08c !important;
+}
+
+/* line 244, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/portfolios.scss */
+.new_item_header {
+  height: 4rem;
+  background: black;
+  margin-bottom: 15px;
+}
+/* line 1, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+@-webkit-keyframes slideInFromTop {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes slideInFromTop {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/* line 14, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+.static_nav {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 18, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+.static_pages_header {
+  display: none;
+}
+
+/* line 21, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+.static_dropdown.responsive .static_pages_header {
+  -webkit-animation: 200ms ease-out 0s 1 slideInFromTop;
+          animation: 200ms ease-out 0s 1 slideInFromTop;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+/* line 27, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+a.static_pages_header_item {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+/* line 33, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+a.static_pages_header_item:hover {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.075);
+  padding: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+
+/* line 41, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+.fa, .fas {
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-size: xx-large;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+/* line 50, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+.static_dropdown.responsive i.fa, i.fas {
+  -webkit-animation: 1s ease-out 0s 1 rotate180;
+          animation: 1s ease-out 0s 1 rotate180;
+}
+
+/* line 54, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+#home_page:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: url("mountain-background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+/* line 70, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+.content {
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+}
+
+/* line 76, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+.brand {
+  font-size: xx-large;
+}
+
+/* line 80, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+.bio {
+  text-align: center;
+  color: #fff;
+  padding-top: 35vh;
+}
+
+/* line 86, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/static_pages.scss */
+p.copyright {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #000000ad;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/*!
+ * Bootstrap Reboot v4.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */
+/* line 43, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+#notice_wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+/* line 48, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+#notice_wrapper .notice, #notice_wrapper .alert {
+  position: relative;
+  text-align: center;
+  padding: 1.75rem 0;
+  color: #ffffffcf;
+  background-color: #42f9e08c;
+}
+
+/* line 56, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+.navbar {
+  z-index: 2;
+}
+
+/* line 59, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* line 66, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 100%;
+  margin: 0;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+/* line 81, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* line 85, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  height: 100%;
+}
+
+/* line 97, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+/* line 101, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* line 107, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* line 112, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 24px;
+}
+
+/* line 118, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+}
+
+/* line 127, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+/* line 133, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 140, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+/* line 147, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+dt {
+  font-weight: 700;
+}
+
+/* line 151, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
+
+/* line 156, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+blockquote {
+  margin: 0 0 1rem;
+}
+
+/* line 160, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 164, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* line 169, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 173, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+/* line 181, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 185, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 189, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+a {
+  color: #666;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+/* line 196, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+a:hover {
+  background: none;
+  color: black;
+  text-decoration: none;
+}
+
+/* line 202, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 207, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 212, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+/* line 216, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+pre,
+code,
+kbd,
+samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+
+/* line 224, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
+}
+
+/* line 231, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+figure {
+  margin: 0 0 1rem;
+}
+
+/* line 235, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* line 240, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+/* line 245, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 249, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom;
+}
+
+/* line 257, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+th {
+  text-align: inherit;
+}
+
+/* line 261, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+/* line 266, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+button {
+  border-radius: 0;
+}
+
+/* line 270, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/* line 275, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 286, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+button,
+input {
+  overflow: visible;
+}
+
+/* line 291, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 296, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* line 303, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+/* line 311, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 317, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+  -webkit-appearance: listbox;
+}
+
+/* line 324, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+/* line 329, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 336, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+/* line 348, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/* line 352, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 357, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+[type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+/* line 362, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 367, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+
+/* line 372, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+output {
+  display: inline-block;
+}
+
+/* line 376, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+/* line 381, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+template {
+  display: none;
+}
+
+/* line 385, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+[hidden] {
+  display: none !important;
+}
+/* line 390, /Users/prestonmatheson/Desktop/personal_projects/preston_james/app/assets/stylesheets/application.css.scss */
+.italic {
+  font-style: italic;
+}

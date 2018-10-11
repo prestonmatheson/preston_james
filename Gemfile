@@ -44,3 +44,10 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.1', '>= 4.1.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+
+#image upload
+gem 'carrierwave', '~> 1.2', '>= 1.2.3'
+gem "mini_magick"
+gem 'fog', '~> 2.0'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'unf', '~> 0.1.4'

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :portfolios
+  resources :portfolios do 
+    put :sort, on: :collection
+  end
   resources :blogs
   # devise_for :users
   devise_for :users, except: :create, :controllers => { registrations: 'users/registrations' }

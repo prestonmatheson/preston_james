@@ -1,11 +1,10 @@
 class PortfoliosController < ApplicationController
   before_action :set_portfolio, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:show, :index]
-
   # GET /portfolios
   # GET /portfolios.json
   def index
-    @portfolios = Portfolio.all
+    @portfolios = Portfolio.by_position
   end
 
   # GET /portfolios/1
@@ -50,6 +49,14 @@ class PortfoliosController < ApplicationController
         format.json { render json: @portfolio.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  def sort
+    params[:order].each do |key, value|
+      Portfolio.find(value[:id]).update(position: value[:postition])
+    end
+
+    render nothing: true
   end
 
   # DELETE /portfolios/1

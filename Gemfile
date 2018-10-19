@@ -44,6 +44,7 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.1', '>= 4.1.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
 #image upload
 gem 'carrierwave', '~> 1.2', '>= 1.2.3'

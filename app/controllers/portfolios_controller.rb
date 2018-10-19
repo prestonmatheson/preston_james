@@ -52,6 +52,14 @@ class PortfoliosController < ApplicationController
     end
   end
 
+  def sort
+    params[:order].each do |key, value|
+      Portfolio.find(value[:id]).update(position: value[:postition])
+    end
+
+    render nothing: true
+  end
+
   # DELETE /portfolios/1
   # DELETE /portfolios/1.json
   def destroy

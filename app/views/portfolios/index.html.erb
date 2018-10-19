@@ -23,7 +23,7 @@
         <h3 class="section-subheading text-muted">Recent Projects I've Contributed to</h3>
       </div>
     </div>
-    <div class="row sortable">
+    <div class="row <%= 'sortable' if current_user %>">
       <% @portfolios.each do |portfolio| %>
         <div class="col-md-4 col-sm-6 portfolio-item" data-id="<%= portfolio.id %>">
           <a class="portfolio-link" href="<%= portfolio_path(portfolio) %>">

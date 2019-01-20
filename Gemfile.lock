@@ -303,6 +303,7 @@ GEM
     multi_json (1.13.1)
     multipart-post (2.0.0)
     netrc (0.11.0)
+    newrelic_rpm (3.9.6.257)
     nio4r (2.3.1)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
@@ -445,6 +446,7 @@ DEPENDENCIES
   jquery-ui-rails (~> 6.0, >= 6.0.1)
   listen (>= 3.0.5, < 3.2)
   mini_magick
+  newrelic_rpm
   pg (>= 0.18, < 2.0)
   puma (~> 3.7)
   rails (~> 5.1.6)

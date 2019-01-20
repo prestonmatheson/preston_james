@@ -52,6 +52,3 @@ gem "mini_magick"
 gem 'fog', '~> 2.0'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'unf', '~> 0.1.4'
-
-#new relic
-gem 'newrelic_rpm'
